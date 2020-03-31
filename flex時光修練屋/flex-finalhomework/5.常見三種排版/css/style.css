@@ -1,0 +1,76 @@
+body{
+    font-family:標楷體;
+    color: #37523d;
+}
+h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.wrap{
+    width: 1500px;  
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    margin-bottom: 46px;
+    background-color: #e7eeea; 
+    padding: 0 0 30px 24px;
+}
+.logo-small {
+    display: flex;
+    padding-right: 35px;
+}
+.logo-small div{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.small h2{
+    padding: 30px 0;
+}
+.small p{
+    padding-bottom: 5px;
+}
+.content{
+    display: flex;
+    margin-bottom: 47px;
+    background-color: #e7eeea
+}
+.logo-medium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 49px 30px 34px;
+}
+.logo-medium h2{
+    padding: 15px 0 25px 0 ;
+}
+.logo-medium p{
+    padding-bottom: 5px;
+}
+.footer{
+    background-color: #e7eeea; 
+}
+.logo-large{
+    display: flex; 
+    padding: 36px 0 0 30px;
+}
+.logo-large h2{
+    padding: 26px 0 20px 0;
+}
+.logo-large p{
+    padding: 0 0 36px 0;
+}
+.logo-big{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 30px 15px 0 ;
+}
+.logo-big h2{
+    padding: 26px 0 20px 0;
+}
+.logo-big p{
+    padding: 0 0 62px 0;
+}
+.large{padding:0 10px;}

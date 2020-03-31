@@ -1,0 +1,43 @@
+body{
+    font-family:標楷體;
+    color: #a2b4ab;
+}
+.wrap{
+    width: 305px;  
+    margin: 0 auto;
+}
+h2{
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #e7eeea;
+    padding: 20px 0;
+}
+em{
+    padding: 0 5px;
+}
+.summary{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0 10px 0;
+    
+}
+.summary span{
+    font-size: 26px;
+    font-weight: bolder;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.list h3{padding: 15px 0;}
+.list p{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+
+
+

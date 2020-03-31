@@ -1,0 +1,48 @@
+body{
+    font-family:標楷體;
+}
+.wrap{
+    width: 1145px;  
+    margin: 0 auto;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom:#37523d 3px solid ;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 292px 0;
+    background-color: #e7eeea;
+}
+.header h1{
+    background-image: url(../img/headerLogo.png);
+    width: 159px;
+    height: 162px;
+    text-indent: -9999px;
+}
+.header p{
+    padding-top: 30px;
+    font-size:28px;
+    font-weight: bolder;
+    color: #37523d;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    font-size: 16px;
+    padding: 10px;
+    color: #000000;
+}
+

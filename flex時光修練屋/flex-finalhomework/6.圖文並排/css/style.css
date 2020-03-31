@@ -1,0 +1,74 @@
+body{
+    font-family:標楷體;
+}
+.background{
+    width: 907px;
+    background-color: #37523d;
+    margin: 0 auto;
+}
+.wrap{
+    width: 882px;  
+    margin: 0 auto;
+    padding:10px 0 20px 0;   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7eeea;
+    padding: 0 21px 0 34px;
+}
+.header h1{
+    background-image: url(../img/logo.png);
+    width: 298px;
+    height: 59px;
+    text-indent: -9999px;
+}
+.header div {
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header a{
+    display: block;
+    color: #37523d;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.header a:hover{
+    background-color: #acd2fe;
+}
+.content{
+    display: flex;
+    padding: 0 50px 33px 50px;
+    background-color: #fff;
+}
+.content img{
+    padding-top: 29px;
+}
+.disert{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.disert h2{
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 52px 0 25px 0;
+}
+.disert p{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.disert a{
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bolder;
+    color: #637868;
+    padding-right: 5px;
+}
+.disert a:hover{
+    background-color: #acd2fe;
+}
