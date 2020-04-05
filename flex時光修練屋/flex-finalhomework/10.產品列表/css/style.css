@@ -42,17 +42,21 @@ div{
     padding:5px 5px 10px 20px;
 }
 .cart h2{
+    width: 62%;
     font-size: 20px;
     font-weight: bolder;
     display: inline-block;
-    padding: 25px 50px 25px 35px;
+    padding: 25px 0;
+    text-align: center;
 }
 .cart p{
+    width: 38px;
     font-size: 20px;
     font-weight: bolder;
     display: inline-block;
     font-weight: bolder;
-    padding: 25px 0px 25px 15px;
+    padding: 25px 0px ;
+    text-align: center;
 }
 .cart a{
     display: block;

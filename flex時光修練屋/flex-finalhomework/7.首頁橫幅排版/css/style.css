@@ -13,11 +13,11 @@ a:hover{
     border-bottom:#37523d 3px solid ;
 }
 .header{
+    height: 805px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 292px 0;
     background-color: #e7eeea;
 }
 .header h1{
