@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>六角學院</title>
+    <link rel="shortcut icon" href="https://www.hexschool.com/favicon.ico">
+    <meta name='description' content='讓你程式666！手把手教會你程式所有大小事！' />
+    <meta property="og:title" content="讓你程式666！手把手教會你程式所有大小事！" />
+    <meta property="og:description" content="來六角學習你程式不知道的事！">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.hexschool.com/" />
+    <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/hexschool-api.appspot.com/o/web%2Fevents%2F2019-js-starter%2Ffb-cover.png?alt=media&token=6d679c21-c0aa-454a-ad16-78c55b91dd50" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <link rel="stylesheet" href="css/rest.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrap">
-    <div class="topmenu">
-        <a href="#" class="blue"><img src="img/facebookIcon.png" alt="">粉絲團</a>
-        <a href="#" class="laker"><img src="img/twitterIcon.png" alt="">追隨我們</a>
-    </div>
+    <ul  class="topmenu">
+        <li><a href="#" class="blue"><img src="img/facebookIcon.png" alt="">粉絲團</a></li>
+        <li><a href="#" class="laker"><img src="img/twitterIcon.png" alt="">追隨我們</a></li>
+    </ul>
     <div class="header">
          <h1><a href="#">六角學院</a></h1>
         <ul class="menu">
@@ -115,16 +123,15 @@
         <h2>歡迎留下您的資料</h2>
          <form action="" class="form">
         <textarea name="infor" id="infor" cols="30" rows="10"></textarea>
-    <div class="input">
-        <h3>姓名</h3>
-        <input type="text" placeholder="六角講師">
-        <h3>電話</h3>
-        <input type="text" placeholder="0912345678">
-        <h3>信箱</h3>
-        <input type="text" placeholder="hexschool@mail.com">
-        <input type="submit" class="button" value="送出">
-    </div>
-               
+    <ul class="input">
+        <li><label for="name">姓名:</label></li>
+        <li><input id="name" type="text" placeholder="六角講師"></li>
+        <li><label for="phone">電話:</label></li>
+        <li><input id="phone" type="text" placeholder="0912345678"></li>
+        <li><label for="mail">信箱:</label></li>
+        <li><input id="mail" type="text" placeholder="hexschool@mail.com"></li>
+        <li><input type="submit" class="button" value="送出"></li> 
+    </ul>         
         </form>
     </div>
     </div>

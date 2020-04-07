@@ -33,9 +33,9 @@ body{font-family: 標楷體;}
     background-image: url(../img/logo.png);
     width: 234px;
     height: 50px;
-    text-indent: 101%;
-    white-space: nowrap;
-    overflow: hidden;
+    text-indent: -9999px;
+    /* white-space: nowrap;
+    overflow: hidden; */
 }
 .header a{
     display: block;
@@ -155,13 +155,13 @@ body{font-family: 標楷體;}
     margin-left: 20px;
     width: 460px;
 }
-.form h3{
+.form label{
     color: #ffffff;
     font-size: 20px;
 }
 .form input{
     padding: 10px;
-    width: 440px;
+    width: 400px;
     margin:10px 0 10px 0;
     border-radius:5px;
 }
@@ -174,6 +174,7 @@ body{font-family: 標楷體;}
     position: absolute;
     right: 20px;
     bottom: -55px;
+    cursor: pointer;
 }
 .form .button:hover{
     background-color: aquamarine;
