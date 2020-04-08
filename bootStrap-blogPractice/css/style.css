@@ -4,3 +4,6 @@
 .breadcrumb{
     background-color: transparent;
 }
+.link:hover{
+    color:#0066FF !important;
+}
