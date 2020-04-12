@@ -1,0 +1,168 @@
+/* 通用 */
+*{box-sizing: border-box;}
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 16px;
+}   
+.margin-auto{
+    width: 896px;
+    margin: 0 auto;
+}
+span{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.color-red{
+    color: #a00404;
+}
+.boder-bottom-black{
+    border-bottom: 1px solid #000000;
+}
+.boder-bottom-white{
+    border-bottom: 1px solid #ffffff;
+    margin: 0 70px;
+}
+.wrap{
+    width: 1380px;
+    margin: 0 auto;
+}
+h2{
+    font-size:32px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.topname_inner{
+    border-bottom: 2px solid #000;
+    padding: 48px 0 15px 0;
+    margin-bottom: 30px;
+}
+.topname_inner h1{
+    font-size: 48px;
+    padding-bottom: 15px;
+}
+
+.head_inner{
+    margin-bottom: 40px;
+}
+.head_inner img{
+    width: 324px;
+    height: 324px;
+}
+
+.profile_inner{
+    padding-bottom: 36px;
+}
+.profile_inner ul {
+    padding:0 0 24px 30px;
+}
+.profile_inner li{
+    padding-top: 15px;
+}
+
+.education_inner{
+    padding-bottom: 30px;
+}
+.education_inner ul{
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.education_inner li{
+    margin-bottom: 30px;
+}
+
+.skill{
+    height: 376px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.skill_inner{
+    background-color: #415165;
+    color: #ffffff;
+    padding:20px 0 30px 0;
+    margin-bottom: 56px;  
+    position: absolute;
+    left: 242px;
+}
+.background{
+    background-color: #96a9c4;
+    width: 1380px;
+    height: 270px;
+    position: absolute;
+    top: 65px;   
+}
+.skill_inner div{
+    display: flex;
+    justify-content: center;
+}
+.skill_inner ul{
+    margin-top: 30px;
+    border-left: 1px solid 	#DDDDDD;
+}
+.skill_inner li{
+    padding: 0 0 20px 20px;
+}
+
+.workExperience_inner{
+    padding:0 0 50px 20px;
+}
+.share{
+    border-left: 2px solid #dddddd;
+    margin:10px 0 0 15px;
+    padding-left: 20px;
+}
+.workExperience_inner h3{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.workExperience_inner h4{
+    padding-top:28px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.workExperience_inner h3,img,p{
+    padding-top:10px;
+}
+
+.footer{
+    background-color: #415165;
+    padding: 24px 0 30px 0;
+    text-align: center;
+}
+.footer_inner{
+    color: #ffffff;
+}
+.footer_inner p{
+    padding-top: 20px;
+}
+.footer_inner a{
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 15px;
+    color: #ffffff;
+}
+.footer_inner a:hover{
+    color: burlywood;
+}
+/* 時間軸 */
+.timeline-section{
+    position: relative;
+}
+.timeline-pointer::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #96a9c4;
+    border-radius: 50%;
+    left: 0px;
+}
+.timeLine::after{
+    content: "";
+    position: absolute;
+    border-left: 1px solid #96a9c4;
+    top: 0px;
+    bottom: 0px;
+    left: 7.5px;
+}
